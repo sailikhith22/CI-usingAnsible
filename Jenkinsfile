@@ -3,7 +3,7 @@ pipeline {
     
     tools
     {
-       maven "maven"
+       maven "Maven"
     }
      
     stages {
@@ -28,7 +28,7 @@ pipeline {
         }
      
         
-         stage('Execute maven') {
+         stage('Execute Maven') {
            steps {
              
                 sh 'mvn package'             
